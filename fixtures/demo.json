@@ -1,0 +1,2116 @@
+{
+  "mode": "demo",
+  "fictional": true,
+  "companies": [
+    {
+      "company": {
+        "symbol": "DEMO:HCM",
+        "name": "华辰制造",
+        "sector": "高端制造",
+        "tagline": "让精密制造，连接产业未来",
+        "price": 22.8,
+        "change_pct": 0.0187,
+        "kind": "eligible",
+        "exchange": "DEMO",
+        "security_type": "fictional",
+        "is_demo": true,
+        "currency": "CNY",
+        "market_as_of": "2026-09-18T07:00:00Z",
+        "source": "沪讯虚构演示数据"
+      },
+      "financial": {
+        "symbol": "DEMO:HCM",
+        "status": "eligible",
+        "reason": "虚构演示数据完整",
+        "inputs": {
+          "revenue_base": 12000000000.0,
+          "revenue_growth": [
+            0.06,
+            0.06,
+            0.05,
+            0.04,
+            0.03
+          ],
+          "ebit_margin": [
+            0.22,
+            0.22,
+            0.22,
+            0.22,
+            0.22
+          ],
+          "tax_rate": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "da_ratio": [
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.04
+          ],
+          "capex_ratio": [
+            0.055,
+            0.055,
+            0.055,
+            0.055,
+            0.055
+          ],
+          "nwc_ratio": [
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.14
+          ],
+          "nwc_base": 1680000000.0,
+          "wacc": 0.09,
+          "terminal_growth": 0.02,
+          "terminal_margin": 0.22,
+          "terminal_tax_rate": 0.25,
+          "terminal_roic": 0.1,
+          "excess_cash": 2800000000.0,
+          "non_operating_assets": 0,
+          "interest_bearing_debt": 1200000000.0,
+          "minority_interest_value": 0,
+          "preferred_equity_value": 0,
+          "diluted_shares": 1000000000.0,
+          "current_price": 22.8
+        },
+        "provenance": {
+          "revenue_base": {
+            "value": 12000000000.0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "revenue_growth": {
+            "value": [
+              0.06,
+              0.06,
+              0.05,
+              0.04,
+              0.03
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "ebit_margin": {
+            "value": [
+              0.22,
+              0.22,
+              0.22,
+              0.22,
+              0.22
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "tax_rate": {
+            "value": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "da_ratio": {
+            "value": [
+              0.04,
+              0.04,
+              0.04,
+              0.04,
+              0.04
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "capex_ratio": {
+            "value": [
+              0.055,
+              0.055,
+              0.055,
+              0.055,
+              0.055
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "nwc_ratio": {
+            "value": [
+              0.14,
+              0.14,
+              0.14,
+              0.14,
+              0.14
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "nwc_base": {
+            "value": 1680000000.0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "wacc": {
+            "value": 0.09,
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "terminal_growth": {
+            "value": 0.02,
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "terminal_margin": {
+            "value": 0.22,
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "terminal_tax_rate": {
+            "value": 0.25,
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "terminal_roic": {
+            "value": 0.1,
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "excess_cash": {
+            "value": 2800000000.0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "non_operating_assets": {
+            "value": 0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "interest_bearing_debt": {
+            "value": 1200000000.0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "minority_interest_value": {
+            "value": 0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "preferred_equity_value": {
+            "value": 0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "diluted_shares": {
+            "value": 1000000000.0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "current_price": {
+            "value": 22.8,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          }
+        },
+        "period_end": "2026-06-30",
+        "disclosed_at": "2026-08-20",
+        "is_demo": true,
+        "source_url": null,
+        "quality_status": "demo",
+        "missing_fields": [],
+        "assumptions": [
+          "所有数字均为虚构样例"
+        ],
+        "history": [
+          {
+            "year": 2023,
+            "revenue": 10200000000.0,
+            "ebit_margin": 0.2,
+            "capex_ratio": 0.055,
+            "da_ratio": 0.04,
+            "nwc_ratio": 0.14
+          },
+          {
+            "year": 2024,
+            "revenue": 11300000000.0,
+            "ebit_margin": 0.21,
+            "capex_ratio": 0.055,
+            "da_ratio": 0.04,
+            "nwc_ratio": 0.14
+          },
+          {
+            "year": 2025,
+            "revenue": 12000000000.0,
+            "ebit_margin": 0.22,
+            "capex_ratio": 0.055,
+            "da_ratio": 0.04,
+            "nwc_ratio": 0.14
+          }
+        ]
+      },
+      "news": [
+        {
+          "id": "demo-HCM-0",
+          "symbol": "DEMO:HCM",
+          "company": "华辰制造",
+          "title": "华辰制造：下游订单交付节奏放缓，公司提示短期经营不确定性",
+          "content": "公司表示，部分客户调整了订单交付计划，短期收入确认存在不确定性。管理层将继续关注回款与库存水平。",
+          "excerpt": "公司表示，部分客户调整了订单交付计划，短期收入确认存在不确定性。管理层将继续关注回款与库存水平。…",
+          "category": "需求观察",
+          "sentiment": "负面",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-18T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 32,
+              "text": "公司表示，部分客户调整了订单交付计划，短期收入确认存在不确定性。"
+            }
+          ]
+        },
+        {
+          "id": "demo-HCM-1",
+          "symbol": "DEMO:HCM",
+          "company": "华辰制造",
+          "title": "华辰制造：披露股份回购计划，关注后续执行进度",
+          "content": "公司披露拟使用自有资金回购股份，计划仍需履行相应程序。回购金额与实施节奏取决于后续经营情况。",
+          "excerpt": "公司披露拟使用自有资金回购股份，计划仍需履行相应程序。回购金额与实施节奏取决于后续经营情况。…",
+          "category": "公司公告",
+          "sentiment": "正面",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-17T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 27,
+              "text": "公司披露拟使用自有资金回购股份，计划仍需履行相应程序。"
+            }
+          ]
+        },
+        {
+          "id": "demo-HCM-2",
+          "symbol": "DEMO:HCM",
+          "company": "华辰制造",
+          "title": "华辰制造：发布半年度经营数据，经营现金流保持稳定",
+          "content": "公司发布半年度经营摘要，主要业务保持运行。报告同时提示原材料成本和营运资本占用可能影响现金流。",
+          "excerpt": "公司发布半年度经营摘要，主要业务保持运行。报告同时提示原材料成本和营运资本占用可能影响现金流。…",
+          "category": "财务报告",
+          "sentiment": "中性",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-16T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 21,
+              "text": "公司发布半年度经营摘要，主要业务保持运行。"
+            }
+          ]
+        },
+        {
+          "id": "demo-HCM-3",
+          "symbol": "DEMO:HCM",
+          "company": "华辰制造",
+          "title": "华辰制造：推进产线升级，资本投入进入新阶段",
+          "content": "公司正在推进生产线升级，相关资本开支将分期投入。项目收益取决于客户需求与产能利用情况。",
+          "excerpt": "公司正在推进生产线升级，相关资本开支将分期投入。项目收益取决于客户需求与产能利用情况。…",
+          "category": "业务发展",
+          "sentiment": "中性",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-14T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 24,
+              "text": "公司正在推进生产线升级，相关资本开支将分期投入。"
+            }
+          ]
+        },
+        {
+          "id": "demo-HCM-4",
+          "symbol": "DEMO:HCM",
+          "company": "华辰制造",
+          "title": "华辰制造：产业链协同提速，行业需求仍待观察",
+          "content": "行业企业持续推进供应链协作，需求恢复速度尚不明确。该报道属于行业背景，不代表单家公司的经营预测。",
+          "excerpt": "行业企业持续推进供应链协作，需求恢复速度尚不明确。该报道属于行业背景，不代表单家公司的经营预测。…",
+          "category": "行业动态",
+          "sentiment": "中性",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-12T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 25,
+              "text": "行业企业持续推进供应链协作，需求恢复速度尚不明确。"
+            }
+          ]
+        },
+        {
+          "id": "demo-HCM-5",
+          "symbol": "DEMO:HCM",
+          "company": "华辰制造",
+          "title": "华辰制造：投资者交流纪要：聚焦经营效率与长期投入",
+          "content": "管理层表示将继续改善经营效率，并在现金流约束下进行长期投入。相关规划存在执行不确定性。",
+          "excerpt": "管理层表示将继续改善经营效率，并在现金流约束下进行长期投入。相关规划存在执行不确定性。…",
+          "category": "公司公告",
+          "sentiment": "正面",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-09T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 30,
+              "text": "管理层表示将继续改善经营效率，并在现金流约束下进行长期投入。"
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "date": "2026-08-19",
+          "close": 20.67
+        },
+        {
+          "date": "2026-08-20",
+          "close": 20.82
+        },
+        {
+          "date": "2026-08-21",
+          "close": 20.81
+        },
+        {
+          "date": "2026-08-24",
+          "close": 21.17
+        },
+        {
+          "date": "2026-08-25",
+          "close": 21.64
+        },
+        {
+          "date": "2026-08-26",
+          "close": 21.56
+        },
+        {
+          "date": "2026-08-27",
+          "close": 20.98
+        },
+        {
+          "date": "2026-08-28",
+          "close": 20.68
+        },
+        {
+          "date": "2026-08-31",
+          "close": 20.94
+        },
+        {
+          "date": "2026-09-01",
+          "close": 21.21
+        },
+        {
+          "date": "2026-09-02",
+          "close": 21.1
+        },
+        {
+          "date": "2026-09-03",
+          "close": 21.05
+        },
+        {
+          "date": "2026-09-04",
+          "close": 21.61
+        },
+        {
+          "date": "2026-09-07",
+          "close": 22.45
+        },
+        {
+          "date": "2026-09-08",
+          "close": 22.8
+        },
+        {
+          "date": "2026-09-09",
+          "close": 22.65
+        },
+        {
+          "date": "2026-09-10",
+          "close": 22.64
+        },
+        {
+          "date": "2026-09-11",
+          "close": 22.98
+        },
+        {
+          "date": "2026-09-14",
+          "close": 23.09
+        },
+        {
+          "date": "2026-09-15",
+          "close": 22.62
+        },
+        {
+          "date": "2026-09-16",
+          "close": 22.14
+        },
+        {
+          "date": "2026-09-17",
+          "close": 22.28
+        },
+        {
+          "date": "2026-09-18",
+          "close": 22.8
+        }
+      ]
+    },
+    {
+      "company": {
+        "symbol": "DEMO:YHE",
+        "name": "云海能源",
+        "sector": "清洁能源",
+        "tagline": "以稳定现金流，观察能源转型",
+        "price": 68.4,
+        "change_pct": -0.0094,
+        "kind": "eligible",
+        "exchange": "DEMO",
+        "security_type": "fictional",
+        "is_demo": true,
+        "currency": "CNY",
+        "market_as_of": "2026-09-18T07:00:00Z",
+        "source": "沪讯虚构演示数据"
+      },
+      "financial": {
+        "symbol": "DEMO:YHE",
+        "status": "eligible",
+        "reason": "虚构演示数据完整",
+        "inputs": {
+          "revenue_base": 12000000000.0,
+          "revenue_growth": [
+            0.06,
+            0.06,
+            0.05,
+            0.04,
+            0.03
+          ],
+          "ebit_margin": [
+            0.22,
+            0.22,
+            0.22,
+            0.22,
+            0.22
+          ],
+          "tax_rate": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "da_ratio": [
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.04
+          ],
+          "capex_ratio": [
+            0.055,
+            0.055,
+            0.055,
+            0.055,
+            0.055
+          ],
+          "nwc_ratio": [
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.14
+          ],
+          "nwc_base": 1680000000.0,
+          "wacc": 0.09,
+          "terminal_growth": 0.02,
+          "terminal_margin": 0.22,
+          "terminal_tax_rate": 0.25,
+          "terminal_roic": 0.1,
+          "excess_cash": 2800000000.0,
+          "non_operating_assets": 0,
+          "interest_bearing_debt": 1200000000.0,
+          "minority_interest_value": 0,
+          "preferred_equity_value": 0,
+          "diluted_shares": 1000000000.0,
+          "current_price": 68.4
+        },
+        "provenance": {
+          "revenue_base": {
+            "value": 12000000000.0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "revenue_growth": {
+            "value": [
+              0.06,
+              0.06,
+              0.05,
+              0.04,
+              0.03
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "ebit_margin": {
+            "value": [
+              0.22,
+              0.22,
+              0.22,
+              0.22,
+              0.22
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "tax_rate": {
+            "value": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "da_ratio": {
+            "value": [
+              0.04,
+              0.04,
+              0.04,
+              0.04,
+              0.04
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "capex_ratio": {
+            "value": [
+              0.055,
+              0.055,
+              0.055,
+              0.055,
+              0.055
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "nwc_ratio": {
+            "value": [
+              0.14,
+              0.14,
+              0.14,
+              0.14,
+              0.14
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "nwc_base": {
+            "value": 1680000000.0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "wacc": {
+            "value": 0.09,
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "terminal_growth": {
+            "value": 0.02,
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "terminal_margin": {
+            "value": 0.22,
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "terminal_tax_rate": {
+            "value": 0.25,
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "terminal_roic": {
+            "value": 0.1,
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "excess_cash": {
+            "value": 2800000000.0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "non_operating_assets": {
+            "value": 0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "interest_bearing_debt": {
+            "value": 1200000000.0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "minority_interest_value": {
+            "value": 0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "preferred_equity_value": {
+            "value": 0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "diluted_shares": {
+            "value": 1000000000.0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "current_price": {
+            "value": 68.4,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          }
+        },
+        "period_end": "2026-06-30",
+        "disclosed_at": "2026-08-20",
+        "is_demo": true,
+        "source_url": null,
+        "quality_status": "demo",
+        "missing_fields": [],
+        "assumptions": [
+          "所有数字均为虚构样例"
+        ],
+        "history": [
+          {
+            "year": 2023,
+            "revenue": 10200000000.0,
+            "ebit_margin": 0.2,
+            "capex_ratio": 0.055,
+            "da_ratio": 0.04,
+            "nwc_ratio": 0.14
+          },
+          {
+            "year": 2024,
+            "revenue": 11300000000.0,
+            "ebit_margin": 0.21,
+            "capex_ratio": 0.055,
+            "da_ratio": 0.04,
+            "nwc_ratio": 0.14
+          },
+          {
+            "year": 2025,
+            "revenue": 12000000000.0,
+            "ebit_margin": 0.22,
+            "capex_ratio": 0.055,
+            "da_ratio": 0.04,
+            "nwc_ratio": 0.14
+          }
+        ]
+      },
+      "news": [
+        {
+          "id": "demo-YHE-0",
+          "symbol": "DEMO:YHE",
+          "company": "云海能源",
+          "title": "云海能源：下游订单交付节奏放缓，公司提示短期经营不确定性",
+          "content": "公司表示，部分客户调整了订单交付计划，短期收入确认存在不确定性。管理层将继续关注回款与库存水平。",
+          "excerpt": "公司表示，部分客户调整了订单交付计划，短期收入确认存在不确定性。管理层将继续关注回款与库存水平。…",
+          "category": "需求观察",
+          "sentiment": "负面",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-18T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 32,
+              "text": "公司表示，部分客户调整了订单交付计划，短期收入确认存在不确定性。"
+            }
+          ]
+        },
+        {
+          "id": "demo-YHE-1",
+          "symbol": "DEMO:YHE",
+          "company": "云海能源",
+          "title": "云海能源：披露股份回购计划，关注后续执行进度",
+          "content": "公司披露拟使用自有资金回购股份，计划仍需履行相应程序。回购金额与实施节奏取决于后续经营情况。",
+          "excerpt": "公司披露拟使用自有资金回购股份，计划仍需履行相应程序。回购金额与实施节奏取决于后续经营情况。…",
+          "category": "公司公告",
+          "sentiment": "正面",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-17T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 27,
+              "text": "公司披露拟使用自有资金回购股份，计划仍需履行相应程序。"
+            }
+          ]
+        },
+        {
+          "id": "demo-YHE-2",
+          "symbol": "DEMO:YHE",
+          "company": "云海能源",
+          "title": "云海能源：发布半年度经营数据，经营现金流保持稳定",
+          "content": "公司发布半年度经营摘要，主要业务保持运行。报告同时提示原材料成本和营运资本占用可能影响现金流。",
+          "excerpt": "公司发布半年度经营摘要，主要业务保持运行。报告同时提示原材料成本和营运资本占用可能影响现金流。…",
+          "category": "财务报告",
+          "sentiment": "中性",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-16T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 21,
+              "text": "公司发布半年度经营摘要，主要业务保持运行。"
+            }
+          ]
+        },
+        {
+          "id": "demo-YHE-3",
+          "symbol": "DEMO:YHE",
+          "company": "云海能源",
+          "title": "云海能源：推进产线升级，资本投入进入新阶段",
+          "content": "公司正在推进生产线升级，相关资本开支将分期投入。项目收益取决于客户需求与产能利用情况。",
+          "excerpt": "公司正在推进生产线升级，相关资本开支将分期投入。项目收益取决于客户需求与产能利用情况。…",
+          "category": "业务发展",
+          "sentiment": "中性",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-14T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 24,
+              "text": "公司正在推进生产线升级，相关资本开支将分期投入。"
+            }
+          ]
+        },
+        {
+          "id": "demo-YHE-4",
+          "symbol": "DEMO:YHE",
+          "company": "云海能源",
+          "title": "云海能源：产业链协同提速，行业需求仍待观察",
+          "content": "行业企业持续推进供应链协作，需求恢复速度尚不明确。该报道属于行业背景，不代表单家公司的经营预测。",
+          "excerpt": "行业企业持续推进供应链协作，需求恢复速度尚不明确。该报道属于行业背景，不代表单家公司的经营预测。…",
+          "category": "行业动态",
+          "sentiment": "中性",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-12T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 25,
+              "text": "行业企业持续推进供应链协作，需求恢复速度尚不明确。"
+            }
+          ]
+        },
+        {
+          "id": "demo-YHE-5",
+          "symbol": "DEMO:YHE",
+          "company": "云海能源",
+          "title": "云海能源：投资者交流纪要：聚焦经营效率与长期投入",
+          "content": "管理层表示将继续改善经营效率，并在现金流约束下进行长期投入。相关规划存在执行不确定性。",
+          "excerpt": "管理层表示将继续改善经营效率，并在现金流约束下进行长期投入。相关规划存在执行不确定性。…",
+          "category": "公司公告",
+          "sentiment": "正面",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-09T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 30,
+              "text": "管理层表示将继续改善经营效率，并在现金流约束下进行长期投入。"
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "date": "2026-08-19",
+          "close": 62.01
+        },
+        {
+          "date": "2026-08-20",
+          "close": 62.47
+        },
+        {
+          "date": "2026-08-21",
+          "close": 62.42
+        },
+        {
+          "date": "2026-08-24",
+          "close": 63.5
+        },
+        {
+          "date": "2026-08-25",
+          "close": 64.92
+        },
+        {
+          "date": "2026-08-26",
+          "close": 64.67
+        },
+        {
+          "date": "2026-08-27",
+          "close": 62.95
+        },
+        {
+          "date": "2026-08-28",
+          "close": 62.04
+        },
+        {
+          "date": "2026-08-31",
+          "close": 62.81
+        },
+        {
+          "date": "2026-09-01",
+          "close": 63.63
+        },
+        {
+          "date": "2026-09-02",
+          "close": 63.29
+        },
+        {
+          "date": "2026-09-03",
+          "close": 63.15
+        },
+        {
+          "date": "2026-09-04",
+          "close": 64.84
+        },
+        {
+          "date": "2026-09-07",
+          "close": 67.35
+        },
+        {
+          "date": "2026-09-08",
+          "close": 68.41
+        },
+        {
+          "date": "2026-09-09",
+          "close": 67.95
+        },
+        {
+          "date": "2026-09-10",
+          "close": 67.92
+        },
+        {
+          "date": "2026-09-11",
+          "close": 68.94
+        },
+        {
+          "date": "2026-09-14",
+          "close": 69.26
+        },
+        {
+          "date": "2026-09-15",
+          "close": 67.86
+        },
+        {
+          "date": "2026-09-16",
+          "close": 66.41
+        },
+        {
+          "date": "2026-09-17",
+          "close": 66.84
+        },
+        {
+          "date": "2026-09-18",
+          "close": 68.4
+        }
+      ]
+    },
+    {
+      "company": {
+        "symbol": "DEMO:LXC",
+        "name": "临溪消费",
+        "sector": "品牌消费",
+        "tagline": "从经营质量，理解长期价值",
+        "price": 28.342134120158164,
+        "change_pct": 0.0042,
+        "kind": "fair",
+        "exchange": "DEMO",
+        "security_type": "fictional",
+        "is_demo": true,
+        "currency": "CNY",
+        "market_as_of": "2026-09-18T07:00:00Z",
+        "source": "沪讯虚构演示数据"
+      },
+      "financial": {
+        "symbol": "DEMO:LXC",
+        "status": "eligible",
+        "reason": "虚构演示数据完整",
+        "inputs": {
+          "revenue_base": 12000000000.0,
+          "revenue_growth": [
+            0.06,
+            0.06,
+            0.05,
+            0.04,
+            0.03
+          ],
+          "ebit_margin": [
+            0.22,
+            0.22,
+            0.22,
+            0.22,
+            0.22
+          ],
+          "tax_rate": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "da_ratio": [
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.04
+          ],
+          "capex_ratio": [
+            0.055,
+            0.055,
+            0.055,
+            0.055,
+            0.055
+          ],
+          "nwc_ratio": [
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.14
+          ],
+          "nwc_base": 1680000000.0,
+          "wacc": 0.09,
+          "terminal_growth": 0.02,
+          "terminal_margin": 0.22,
+          "terminal_tax_rate": 0.25,
+          "terminal_roic": 0.1,
+          "excess_cash": 2800000000.0,
+          "non_operating_assets": 0,
+          "interest_bearing_debt": 1200000000.0,
+          "minority_interest_value": 0,
+          "preferred_equity_value": 0,
+          "diluted_shares": 1000000000.0,
+          "current_price": 28.342134120158164
+        },
+        "provenance": {
+          "revenue_base": {
+            "value": 12000000000.0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "revenue_growth": {
+            "value": [
+              0.06,
+              0.06,
+              0.05,
+              0.04,
+              0.03
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "ebit_margin": {
+            "value": [
+              0.22,
+              0.22,
+              0.22,
+              0.22,
+              0.22
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "tax_rate": {
+            "value": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "da_ratio": {
+            "value": [
+              0.04,
+              0.04,
+              0.04,
+              0.04,
+              0.04
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "capex_ratio": {
+            "value": [
+              0.055,
+              0.055,
+              0.055,
+              0.055,
+              0.055
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "nwc_ratio": {
+            "value": [
+              0.14,
+              0.14,
+              0.14,
+              0.14,
+              0.14
+            ],
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "nwc_base": {
+            "value": 1680000000.0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "wacc": {
+            "value": 0.09,
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "terminal_growth": {
+            "value": 0.02,
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "terminal_margin": {
+            "value": 0.22,
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "terminal_tax_rate": {
+            "value": 0.25,
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "terminal_roic": {
+            "value": 0.1,
+            "origin": "assumption",
+            "unit": "ratio",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "excess_cash": {
+            "value": 2800000000.0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "non_operating_assets": {
+            "value": 0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "interest_bearing_debt": {
+            "value": 1200000000.0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "minority_interest_value": {
+            "value": 0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "preferred_equity_value": {
+            "value": 0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "diluted_shares": {
+            "value": 1000000000.0,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          },
+          "current_price": {
+            "value": 28.342134120158164,
+            "origin": "assumption",
+            "unit": "CNY",
+            "source_ref": "demo-financial",
+            "note": "虚构演示输入，不对应真实公司"
+          }
+        },
+        "period_end": "2026-06-30",
+        "disclosed_at": "2026-08-20",
+        "is_demo": true,
+        "source_url": null,
+        "quality_status": "demo",
+        "missing_fields": [],
+        "assumptions": [
+          "所有数字均为虚构样例"
+        ],
+        "history": [
+          {
+            "year": 2023,
+            "revenue": 10200000000.0,
+            "ebit_margin": 0.2,
+            "capex_ratio": 0.055,
+            "da_ratio": 0.04,
+            "nwc_ratio": 0.14
+          },
+          {
+            "year": 2024,
+            "revenue": 11300000000.0,
+            "ebit_margin": 0.21,
+            "capex_ratio": 0.055,
+            "da_ratio": 0.04,
+            "nwc_ratio": 0.14
+          },
+          {
+            "year": 2025,
+            "revenue": 12000000000.0,
+            "ebit_margin": 0.22,
+            "capex_ratio": 0.055,
+            "da_ratio": 0.04,
+            "nwc_ratio": 0.14
+          }
+        ]
+      },
+      "news": [
+        {
+          "id": "demo-LXC-0",
+          "symbol": "DEMO:LXC",
+          "company": "临溪消费",
+          "title": "临溪消费：下游订单交付节奏放缓，公司提示短期经营不确定性",
+          "content": "公司表示，部分客户调整了订单交付计划，短期收入确认存在不确定性。管理层将继续关注回款与库存水平。",
+          "excerpt": "公司表示，部分客户调整了订单交付计划，短期收入确认存在不确定性。管理层将继续关注回款与库存水平。…",
+          "category": "需求观察",
+          "sentiment": "负面",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-18T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 32,
+              "text": "公司表示，部分客户调整了订单交付计划，短期收入确认存在不确定性。"
+            }
+          ]
+        },
+        {
+          "id": "demo-LXC-1",
+          "symbol": "DEMO:LXC",
+          "company": "临溪消费",
+          "title": "临溪消费：披露股份回购计划，关注后续执行进度",
+          "content": "公司披露拟使用自有资金回购股份，计划仍需履行相应程序。回购金额与实施节奏取决于后续经营情况。",
+          "excerpt": "公司披露拟使用自有资金回购股份，计划仍需履行相应程序。回购金额与实施节奏取决于后续经营情况。…",
+          "category": "公司公告",
+          "sentiment": "正面",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-17T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 27,
+              "text": "公司披露拟使用自有资金回购股份，计划仍需履行相应程序。"
+            }
+          ]
+        },
+        {
+          "id": "demo-LXC-2",
+          "symbol": "DEMO:LXC",
+          "company": "临溪消费",
+          "title": "临溪消费：发布半年度经营数据，经营现金流保持稳定",
+          "content": "公司发布半年度经营摘要，主要业务保持运行。报告同时提示原材料成本和营运资本占用可能影响现金流。",
+          "excerpt": "公司发布半年度经营摘要，主要业务保持运行。报告同时提示原材料成本和营运资本占用可能影响现金流。…",
+          "category": "财务报告",
+          "sentiment": "中性",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-16T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 21,
+              "text": "公司发布半年度经营摘要，主要业务保持运行。"
+            }
+          ]
+        },
+        {
+          "id": "demo-LXC-3",
+          "symbol": "DEMO:LXC",
+          "company": "临溪消费",
+          "title": "临溪消费：推进产线升级，资本投入进入新阶段",
+          "content": "公司正在推进生产线升级，相关资本开支将分期投入。项目收益取决于客户需求与产能利用情况。",
+          "excerpt": "公司正在推进生产线升级，相关资本开支将分期投入。项目收益取决于客户需求与产能利用情况。…",
+          "category": "业务发展",
+          "sentiment": "中性",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-14T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 24,
+              "text": "公司正在推进生产线升级，相关资本开支将分期投入。"
+            }
+          ]
+        },
+        {
+          "id": "demo-LXC-4",
+          "symbol": "DEMO:LXC",
+          "company": "临溪消费",
+          "title": "临溪消费：产业链协同提速，行业需求仍待观察",
+          "content": "行业企业持续推进供应链协作，需求恢复速度尚不明确。该报道属于行业背景，不代表单家公司的经营预测。",
+          "excerpt": "行业企业持续推进供应链协作，需求恢复速度尚不明确。该报道属于行业背景，不代表单家公司的经营预测。…",
+          "category": "行业动态",
+          "sentiment": "中性",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-12T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 25,
+              "text": "行业企业持续推进供应链协作，需求恢复速度尚不明确。"
+            }
+          ]
+        },
+        {
+          "id": "demo-LXC-5",
+          "symbol": "DEMO:LXC",
+          "company": "临溪消费",
+          "title": "临溪消费：投资者交流纪要：聚焦经营效率与长期投入",
+          "content": "管理层表示将继续改善经营效率，并在现金流约束下进行长期投入。相关规划存在执行不确定性。",
+          "excerpt": "管理层表示将继续改善经营效率，并在现金流约束下进行长期投入。相关规划存在执行不确定性。…",
+          "category": "公司公告",
+          "sentiment": "正面",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-09T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 30,
+              "text": "管理层表示将继续改善经营效率，并在现金流约束下进行长期投入。"
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "date": "2026-08-19",
+          "close": 25.7
+        },
+        {
+          "date": "2026-08-20",
+          "close": 25.88
+        },
+        {
+          "date": "2026-08-21",
+          "close": 25.86
+        },
+        {
+          "date": "2026-08-24",
+          "close": 26.31
+        },
+        {
+          "date": "2026-08-25",
+          "close": 26.9
+        },
+        {
+          "date": "2026-08-26",
+          "close": 26.8
+        },
+        {
+          "date": "2026-08-27",
+          "close": 26.09
+        },
+        {
+          "date": "2026-08-28",
+          "close": 25.71
+        },
+        {
+          "date": "2026-08-31",
+          "close": 26.03
+        },
+        {
+          "date": "2026-09-01",
+          "close": 26.36
+        },
+        {
+          "date": "2026-09-02",
+          "close": 26.22
+        },
+        {
+          "date": "2026-09-03",
+          "close": 26.17
+        },
+        {
+          "date": "2026-09-04",
+          "close": 26.87
+        },
+        {
+          "date": "2026-09-07",
+          "close": 27.91
+        },
+        {
+          "date": "2026-09-08",
+          "close": 28.35
+        },
+        {
+          "date": "2026-09-09",
+          "close": 28.16
+        },
+        {
+          "date": "2026-09-10",
+          "close": 28.14
+        },
+        {
+          "date": "2026-09-11",
+          "close": 28.57
+        },
+        {
+          "date": "2026-09-14",
+          "close": 28.7
+        },
+        {
+          "date": "2026-09-15",
+          "close": 28.12
+        },
+        {
+          "date": "2026-09-16",
+          "close": 27.52
+        },
+        {
+          "date": "2026-09-17",
+          "close": 27.7
+        },
+        {
+          "date": "2026-09-18",
+          "close": 28.34
+        }
+      ]
+    },
+    {
+      "company": {
+        "symbol": "DEMO:QTECH",
+        "name": "启元科技",
+        "sector": "半导体设备",
+        "tagline": "财务数据待补充样例",
+        "price": 46.72,
+        "change_pct": -0.0231,
+        "kind": "missing",
+        "exchange": "DEMO",
+        "security_type": "fictional",
+        "is_demo": true,
+        "currency": "CNY",
+        "market_as_of": "2026-09-18T07:00:00Z",
+        "source": "沪讯虚构演示数据"
+      },
+      "financial": {
+        "symbol": "DEMO:QTECH",
+        "status": "insufficient_data",
+        "reason": "缺少资本开支与股本数据",
+        "missing_fields": [
+          "capex_ratio",
+          "diluted_shares"
+        ],
+        "inputs": null,
+        "provenance": {},
+        "period_end": "2026-06-30",
+        "is_demo": true,
+        "history": [],
+        "source_url": null
+      },
+      "news": [
+        {
+          "id": "demo-QTECH-0",
+          "symbol": "DEMO:QTECH",
+          "company": "启元科技",
+          "title": "启元科技：下游订单交付节奏放缓，公司提示短期经营不确定性",
+          "content": "公司表示，部分客户调整了订单交付计划，短期收入确认存在不确定性。管理层将继续关注回款与库存水平。",
+          "excerpt": "公司表示，部分客户调整了订单交付计划，短期收入确认存在不确定性。管理层将继续关注回款与库存水平。…",
+          "category": "需求观察",
+          "sentiment": "负面",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-18T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 32,
+              "text": "公司表示，部分客户调整了订单交付计划，短期收入确认存在不确定性。"
+            }
+          ]
+        },
+        {
+          "id": "demo-QTECH-1",
+          "symbol": "DEMO:QTECH",
+          "company": "启元科技",
+          "title": "启元科技：披露股份回购计划，关注后续执行进度",
+          "content": "公司披露拟使用自有资金回购股份，计划仍需履行相应程序。回购金额与实施节奏取决于后续经营情况。",
+          "excerpt": "公司披露拟使用自有资金回购股份，计划仍需履行相应程序。回购金额与实施节奏取决于后续经营情况。…",
+          "category": "公司公告",
+          "sentiment": "正面",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-17T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 27,
+              "text": "公司披露拟使用自有资金回购股份，计划仍需履行相应程序。"
+            }
+          ]
+        },
+        {
+          "id": "demo-QTECH-2",
+          "symbol": "DEMO:QTECH",
+          "company": "启元科技",
+          "title": "启元科技：发布半年度经营数据，经营现金流保持稳定",
+          "content": "公司发布半年度经营摘要，主要业务保持运行。报告同时提示原材料成本和营运资本占用可能影响现金流。",
+          "excerpt": "公司发布半年度经营摘要，主要业务保持运行。报告同时提示原材料成本和营运资本占用可能影响现金流。…",
+          "category": "财务报告",
+          "sentiment": "中性",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-16T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 21,
+              "text": "公司发布半年度经营摘要，主要业务保持运行。"
+            }
+          ]
+        },
+        {
+          "id": "demo-QTECH-3",
+          "symbol": "DEMO:QTECH",
+          "company": "启元科技",
+          "title": "启元科技：推进产线升级，资本投入进入新阶段",
+          "content": "公司正在推进生产线升级，相关资本开支将分期投入。项目收益取决于客户需求与产能利用情况。",
+          "excerpt": "公司正在推进生产线升级，相关资本开支将分期投入。项目收益取决于客户需求与产能利用情况。…",
+          "category": "业务发展",
+          "sentiment": "中性",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-14T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 24,
+              "text": "公司正在推进生产线升级，相关资本开支将分期投入。"
+            }
+          ]
+        },
+        {
+          "id": "demo-QTECH-4",
+          "symbol": "DEMO:QTECH",
+          "company": "启元科技",
+          "title": "启元科技：产业链协同提速，行业需求仍待观察",
+          "content": "行业企业持续推进供应链协作，需求恢复速度尚不明确。该报道属于行业背景，不代表单家公司的经营预测。",
+          "excerpt": "行业企业持续推进供应链协作，需求恢复速度尚不明确。该报道属于行业背景，不代表单家公司的经营预测。…",
+          "category": "行业动态",
+          "sentiment": "中性",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-12T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 25,
+              "text": "行业企业持续推进供应链协作，需求恢复速度尚不明确。"
+            }
+          ]
+        },
+        {
+          "id": "demo-QTECH-5",
+          "symbol": "DEMO:QTECH",
+          "company": "启元科技",
+          "title": "启元科技：投资者交流纪要：聚焦经营效率与长期投入",
+          "content": "管理层表示将继续改善经营效率，并在现金流约束下进行长期投入。相关规划存在执行不确定性。",
+          "excerpt": "管理层表示将继续改善经营效率，并在现金流约束下进行长期投入。相关规划存在执行不确定性。…",
+          "category": "公司公告",
+          "sentiment": "正面",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-09T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 30,
+              "text": "管理层表示将继续改善经营效率，并在现金流约束下进行长期投入。"
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "date": "2026-08-19",
+          "close": 42.36
+        },
+        {
+          "date": "2026-08-20",
+          "close": 42.67
+        },
+        {
+          "date": "2026-08-21",
+          "close": 42.64
+        },
+        {
+          "date": "2026-08-24",
+          "close": 43.37
+        },
+        {
+          "date": "2026-08-25",
+          "close": 44.34
+        },
+        {
+          "date": "2026-08-26",
+          "close": 44.17
+        },
+        {
+          "date": "2026-08-27",
+          "close": 43.0
+        },
+        {
+          "date": "2026-08-28",
+          "close": 42.37
+        },
+        {
+          "date": "2026-08-31",
+          "close": 42.9
+        },
+        {
+          "date": "2026-09-01",
+          "close": 43.46
+        },
+        {
+          "date": "2026-09-02",
+          "close": 43.23
+        },
+        {
+          "date": "2026-09-03",
+          "close": 43.14
+        },
+        {
+          "date": "2026-09-04",
+          "close": 44.29
+        },
+        {
+          "date": "2026-09-07",
+          "close": 46.0
+        },
+        {
+          "date": "2026-09-08",
+          "close": 46.73
+        },
+        {
+          "date": "2026-09-09",
+          "close": 46.41
+        },
+        {
+          "date": "2026-09-10",
+          "close": 46.39
+        },
+        {
+          "date": "2026-09-11",
+          "close": 47.09
+        },
+        {
+          "date": "2026-09-14",
+          "close": 47.31
+        },
+        {
+          "date": "2026-09-15",
+          "close": 46.35
+        },
+        {
+          "date": "2026-09-16",
+          "close": 45.36
+        },
+        {
+          "date": "2026-09-17",
+          "close": 45.65
+        },
+        {
+          "date": "2026-09-18",
+          "close": 46.72
+        }
+      ]
+    },
+    {
+      "company": {
+        "symbol": "DEMO:HBANK",
+        "name": "沪江银行",
+        "sector": "银行",
+        "tagline": "金融行业模型边界样例",
+        "price": 12.56,
+        "change_pct": 0.0064,
+        "kind": "unsupported",
+        "exchange": "DEMO",
+        "security_type": "fictional",
+        "is_demo": true,
+        "currency": "CNY",
+        "market_as_of": "2026-09-18T07:00:00Z",
+        "source": "沪讯虚构演示数据"
+      },
+      "financial": {
+        "symbol": "DEMO:HBANK",
+        "status": "unsupported_sector",
+        "reason": "银行不适用当前非金融 FCFF 模型",
+        "missing_fields": [],
+        "inputs": null,
+        "provenance": {},
+        "period_end": "2026-06-30",
+        "is_demo": true,
+        "history": [],
+        "source_url": null
+      },
+      "news": [
+        {
+          "id": "demo-HBANK-0",
+          "symbol": "DEMO:HBANK",
+          "company": "沪江银行",
+          "title": "沪江银行：下游订单交付节奏放缓，公司提示短期经营不确定性",
+          "content": "公司表示，部分客户调整了订单交付计划，短期收入确认存在不确定性。管理层将继续关注回款与库存水平。",
+          "excerpt": "公司表示，部分客户调整了订单交付计划，短期收入确认存在不确定性。管理层将继续关注回款与库存水平。…",
+          "category": "需求观察",
+          "sentiment": "负面",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-18T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 32,
+              "text": "公司表示，部分客户调整了订单交付计划，短期收入确认存在不确定性。"
+            }
+          ]
+        },
+        {
+          "id": "demo-HBANK-1",
+          "symbol": "DEMO:HBANK",
+          "company": "沪江银行",
+          "title": "沪江银行：披露股份回购计划，关注后续执行进度",
+          "content": "公司披露拟使用自有资金回购股份，计划仍需履行相应程序。回购金额与实施节奏取决于后续经营情况。",
+          "excerpt": "公司披露拟使用自有资金回购股份，计划仍需履行相应程序。回购金额与实施节奏取决于后续经营情况。…",
+          "category": "公司公告",
+          "sentiment": "正面",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-17T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 27,
+              "text": "公司披露拟使用自有资金回购股份，计划仍需履行相应程序。"
+            }
+          ]
+        },
+        {
+          "id": "demo-HBANK-2",
+          "symbol": "DEMO:HBANK",
+          "company": "沪江银行",
+          "title": "沪江银行：发布半年度经营数据，经营现金流保持稳定",
+          "content": "公司发布半年度经营摘要，主要业务保持运行。报告同时提示原材料成本和营运资本占用可能影响现金流。",
+          "excerpt": "公司发布半年度经营摘要，主要业务保持运行。报告同时提示原材料成本和营运资本占用可能影响现金流。…",
+          "category": "财务报告",
+          "sentiment": "中性",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-16T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 21,
+              "text": "公司发布半年度经营摘要，主要业务保持运行。"
+            }
+          ]
+        },
+        {
+          "id": "demo-HBANK-3",
+          "symbol": "DEMO:HBANK",
+          "company": "沪江银行",
+          "title": "沪江银行：推进产线升级，资本投入进入新阶段",
+          "content": "公司正在推进生产线升级，相关资本开支将分期投入。项目收益取决于客户需求与产能利用情况。",
+          "excerpt": "公司正在推进生产线升级，相关资本开支将分期投入。项目收益取决于客户需求与产能利用情况。…",
+          "category": "业务发展",
+          "sentiment": "中性",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-14T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 24,
+              "text": "公司正在推进生产线升级，相关资本开支将分期投入。"
+            }
+          ]
+        },
+        {
+          "id": "demo-HBANK-4",
+          "symbol": "DEMO:HBANK",
+          "company": "沪江银行",
+          "title": "沪江银行：产业链协同提速，行业需求仍待观察",
+          "content": "行业企业持续推进供应链协作，需求恢复速度尚不明确。该报道属于行业背景，不代表单家公司的经营预测。",
+          "excerpt": "行业企业持续推进供应链协作，需求恢复速度尚不明确。该报道属于行业背景，不代表单家公司的经营预测。…",
+          "category": "行业动态",
+          "sentiment": "中性",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-12T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 25,
+              "text": "行业企业持续推进供应链协作，需求恢复速度尚不明确。"
+            }
+          ]
+        },
+        {
+          "id": "demo-HBANK-5",
+          "symbol": "DEMO:HBANK",
+          "company": "沪江银行",
+          "title": "沪江银行：投资者交流纪要：聚焦经营效率与长期投入",
+          "content": "管理层表示将继续改善经营效率，并在现金流约束下进行长期投入。相关规划存在执行不确定性。",
+          "excerpt": "管理层表示将继续改善经营效率，并在现金流约束下进行长期投入。相关规划存在执行不确定性。…",
+          "category": "公司公告",
+          "sentiment": "正面",
+          "source": "演示资料 · 虚构新闻",
+          "source_url": null,
+          "published_at": "2026-09-09T02:30:00Z",
+          "fetched_at": "2026-09-18T07:00:00Z",
+          "is_demo": true,
+          "content_scope": "fictional",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 30,
+              "text": "管理层表示将继续改善经营效率，并在现金流约束下进行长期投入。"
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "date": "2026-08-19",
+          "close": 11.39
+        },
+        {
+          "date": "2026-08-20",
+          "close": 11.47
+        },
+        {
+          "date": "2026-08-21",
+          "close": 11.46
+        },
+        {
+          "date": "2026-08-24",
+          "close": 11.66
+        },
+        {
+          "date": "2026-08-25",
+          "close": 11.92
+        },
+        {
+          "date": "2026-08-26",
+          "close": 11.88
+        },
+        {
+          "date": "2026-08-27",
+          "close": 11.56
+        },
+        {
+          "date": "2026-08-28",
+          "close": 11.39
+        },
+        {
+          "date": "2026-08-31",
+          "close": 11.53
+        },
+        {
+          "date": "2026-09-01",
+          "close": 11.68
+        },
+        {
+          "date": "2026-09-02",
+          "close": 11.62
+        },
+        {
+          "date": "2026-09-03",
+          "close": 11.6
+        },
+        {
+          "date": "2026-09-04",
+          "close": 11.91
+        },
+        {
+          "date": "2026-09-07",
+          "close": 12.37
+        },
+        {
+          "date": "2026-09-08",
+          "close": 12.56
+        },
+        {
+          "date": "2026-09-09",
+          "close": 12.48
+        },
+        {
+          "date": "2026-09-10",
+          "close": 12.47
+        },
+        {
+          "date": "2026-09-11",
+          "close": 12.66
+        },
+        {
+          "date": "2026-09-14",
+          "close": 12.72
+        },
+        {
+          "date": "2026-09-15",
+          "close": 12.46
+        },
+        {
+          "date": "2026-09-16",
+          "close": 12.19
+        },
+        {
+          "date": "2026-09-17",
+          "close": 12.27
+        },
+        {
+          "date": "2026-09-18",
+          "close": 12.56
+        }
+      ]
+    }
+  ]
+}
