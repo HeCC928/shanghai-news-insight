@@ -1,0 +1,61 @@
+﻿﻿section,field,value,unit,origin,note
+metadata,symbol,600519.SH,,,
+metadata,mode,live,,,
+metadata,created_at,2026-09-19T13:05:08.511751+00:00,,,
+metadata,model_version,fcff-rolling-1.0,,,
+metadata,financial_snapshot_id,financial_34fe2552537b4a538e955e04dc955ac8,,,
+metadata,quote_snapshot_id,quote_f00df509d2f54a998ce5f4e98251bc3e,,,
+assumption,revenue_base,170152009062.43002,CNY,derived,基础期间：截至 2026-06-30 的 TTM；累计流量按本期+上年全年−上年同期转换
+assumption,revenue_growth,"[0.15711951294790794, 0.15711951294790794, 0.15711951294790794, 0.15711951294790794, 0.15711951294790794]",ratio,assumption,历史可用年度收入增长中位数延伸，不是业绩预测
+assumption,ebit_margin,"[0.6706910602970946, 0.6706910602970946, 0.6706910602970946, 0.6706910602970946, 0.6706910602970946]",ratio,assumption,历史核心经营利润=(营业收入−营业成本−税金附加−销售−管理−研发费用)；不含财务收益及投资损益，减值等非常项未延续；历史中位数作为正常化假设
+assumption,tax_rate,"[0.25, 0.25, 0.25, 0.25, 0.25]",ratio,assumption,通用研究税率，不是已测现金税率
+assumption,da_ratio,"[0.013117807687589928, 0.013117807687589928, 0.013117807687589928, 0.013117807687589928, 0.013117807687589928]",ratio,assumption,历史折旧、无形资产、长期待摊与使用权资产摊销之和/收入中位数；各组成项须可核实
+assumption,capex_ratio,"[0.018854702782632484, 0.018854702782632484, 0.018854702782632484, 0.018854702782632484, 0.018854702782632484]",ratio,assumption,购建长期资产现金支出加估计新增使用权资产/收入；新增使用权资产按同期使用权摊销估计，租赁作为融资处理
+assumption,nwc_ratio,"[0.30913961470085216, 0.30913961470085216, 0.30913961470085216, 0.30913961470085216, 0.30913961470085216]",ratio,assumption,贸易营运资本代理：(应收票据及账款+存货−应付票据及账款)/收入，未涵盖其他经营项目
+assumption,nwc_base,52600726522.13552,CNY,assumption,贸易营运资本比例乘基础收入，属于正常化估计
+assumption,wacc,0.09,ratio,assumption,通用名义折现率，不是公司实测资本成本
+assumption,terminal_growth,0.02,ratio,assumption,通用长期增长假设
+assumption,terminal_margin,0.6706910602970946,ratio,assumption,延续历史核心经营利润率中位数，需检查稳态合理性
+assumption,terminal_tax_rate,0.25,ratio,assumption,通用稳态税率
+assumption,terminal_roic,0.1,ratio,assumption,通用稳态 ROIC 假设
+assumption,excess_cash,0.0,CNY,assumption,保守情景将全部现金视作经营所需，不计入超额现金；不是现金余额为零
+assumption,non_operating_assets,0.0,CNY,assumption,未对非经营资产另行估价，保守地不计增值；不是资产不存在
+assumption,interest_bearing_debt,243684868.06,CNY,manual,合并表租赁负债 186829502.34 加一年内到期项 56855365.72；借款及债券栏未列示余额，采用已列示租赁融资债务。财务公司吸收存款与金融资产未纳入本经营 DCF，非经营资产亦不额外计值；这是含简化调整的研究情景。
+assumption,minority_interest_value,10842757754.86,CNY,assumption,少数股东权益账面值作为价值代理，并非市场估值
+assumption,preferred_equity_value,0.0,CNY,manual,2026 半年报优先股不适用；人工核实为零，不是自动把空值补零。
+assumption,diluted_shares,1250081601.0,shares,assumption,报告期总股本作为股数代理；需核对后续公司行动及稀释证券
+assumption,current_price,1257.12,CNY/share,reported,报价快照，不复权
+
+year,label,revenue,ebit,tax,nopat,da,capex,nwc,delta_nwc,fcff,discount_factor,pv_fcff
+1,未来 12 个月,196886209853.42703,132049820844.47125,33012455211.117813,99037365633.35344,2582715437.195729,3712230968.7853737,60865327053.99956,8264600531.864037,89643249569.89975,1.09,82241513366.8805
+2,未来 24 个月,227820875251.75708,152797424380.41306,38199356095.103264,114598068285.30978,2988510428.770965,4295494890.551072,70428457596.13908,9563130542.139526,103727953281.39015,1.1881000000000002,87305743019.43451
+3,未来 36 个月,263615980210.67926,176804881278.75836,44201220319.68959,132603660959.06877,3458063731.779203,4970400955.624684,81494142551.31685,11065684955.177765,120025638780.04553,1.2950290000000002,92681815449.72778
+4,未来 48 个月,305035194626.6665,204584378112.08957,51146094528.02239,153438283584.06717,4001393021.059176,5751347932.92825,94298462537.08713,12804319985.770279,138884008686.4278,1.4115816100000005,98388933167.26317
+5,未来 60 个月,352962175838.37866,236728575957.81174,59182143989.452934,177546431968.3588,4630089943.641151,6654996918.943894,109114591042.6508,14816128505.563675,160705396487.49237,1.5386239549000005,104447481124.74115
+
+result,operating_ev,1810218156239.4834
+result,equity_value,1799131713616.5632
+result,fair_value,1439.211418020513
+result,valuation_gap,0.14484807975413094
+result,discount_to_value,0.12652166022345845
+result,recommendation,recommend
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
+source,https://static.cninfo.com.cn/finalpage/2026-08-15/1225475868.PDF#page=27
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
+source,https://static.cninfo.com.cn/finalpage/2026-08-15/1225475868.PDF#page=25
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
+source,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519
